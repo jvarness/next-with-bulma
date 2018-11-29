@@ -2,7 +2,6 @@
   "name": "next-with-bulma",
   "version": "1.0.0",
   "description": "Trying out Next.js",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",

@@ -20,3 +20,13 @@ To build and start a production version of the code, run:
 npm run build
 npm run start
 ```
+
+## Deploy
+
+To deploy using [`now`](https://github.com/zeit/now-cli), first make sure you have it installed and that you're logged in, then you can deploy:
+
+```
+npm i -g now
+now login
+now
+```

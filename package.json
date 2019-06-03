@@ -12,10 +12,10 @@
   "license": "MIT",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "bulma": "^0.7.2",
-    "next": "^7.0.2",
-    "node-sass": "^4.10.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "bulma": "^0.7.5",
+    "next": "^7.0.3",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }

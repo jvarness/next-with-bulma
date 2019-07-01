@@ -1,6 +1,6 @@
 ---
 title: NextJs and Bulma
-date: 2019-03-17T19:31:20.591Z
+date: 2019-07-01T17:52:00.000Z
 ---
 
-NextJs and Bulma are awesome!
+[NextJs](https://nextjs.org/) and [Bulma](https://bulma.io/) are awesome!

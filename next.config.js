@@ -1,13 +1,9 @@
 const withSass = require('@zeit/next-sass')
-module.exports = withSass({
+const withMDX = require('@next/mdx')
+
+module.exports = withSass(withMDX({
+  extension: /\.md$/
+})({
   target: 'serverless',
-  webpack(config, options) {
-    config.module.rules.push(
-      {
-        test: /\.md$/,
-        use: 'frontmatter-markdown-loader'
-      }
-    )
-    return config;
-  }
-})
+  pageExtensions: ['js', 'md']
+}))

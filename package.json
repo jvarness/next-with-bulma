@@ -11,6 +11,7 @@
   "author": "Jake Varness",
   "license": "MIT",
   "dependencies": {
+    "@next/mdx": "^8.1.0",
     "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.5",
     "next": "^8.1.0",
@@ -19,6 +20,6 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "frontmatter-markdown-loader": "^1.7.0"
+    "@mdx-js/loader": "^1.0.21"
   }
 }

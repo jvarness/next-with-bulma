@@ -41,9 +41,6 @@ export default ({ children }) => {
               <Link prefetch href="/elsewhere">
                 <a className="navbar-item">Elsewhere</a>
               </Link>
-              <Link prefetch href="/home">
-                <a className="navbar-item">Other Home</a>
-              </Link>
             </div>
             <div className="navbar-end">
               <div className="navbar-item">
